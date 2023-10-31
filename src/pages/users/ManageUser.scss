@@ -1,0 +1,87 @@
+.table-wrapper{
+ width: 100%;
+ margin-top: 20px;
+
+.table{
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    // width: 100em;
+    max-width: 100%;
+    margin: auto;
+    overflow-x: auto;
+
+
+    thead{
+        background-color: #ccc;
+        color: #222;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+
+        tr{
+            display: flex;
+            gap: 19rem;
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 100px;
+            height: 100%;
+            padding-top: 30px;
+        }
+    }
+
+
+    tbody{
+        width: 100%;
+        display: flex;
+        align-items: center;
+     
+
+        tr{
+            display: flex;
+            gap: 19rem;
+            margin:1rem 6.2rem;
+            font-size: 20px;
+
+        }
+    }
+
+   
+}
+
+}
+
+
+.add-btn{
+    margin-top: 1rem;
+    border: none;
+    background-color:#628C2A ;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -27px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #ccc;  
+    margin-bottom: 1rem;
+}
+
+.override{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ant-switch-checked{
+    background-color: #628C2A  !important;
+   }

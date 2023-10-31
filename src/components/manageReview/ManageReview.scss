@@ -1,0 +1,20 @@
+.review-container {
+
+  .review_icon{
+    display: flex;
+    align-items: center;
+
+  .review-heading {
+    font-size: 32px;
+    font-weight: 700;
+   
+    color: #628c2a;
+
+    @media (max-width : 700px) {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+} 
+}

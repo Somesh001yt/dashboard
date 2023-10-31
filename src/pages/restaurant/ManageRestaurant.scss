@@ -1,0 +1,39 @@
+.restaurant-img{
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.menu-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 6px;  
+}
+
+.actions{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.restaurant-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
+   .restaurant-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+   }
+
+    }
+
+   .ant-switch-checked{
+    background-color: #628C2A  !important;
+   }

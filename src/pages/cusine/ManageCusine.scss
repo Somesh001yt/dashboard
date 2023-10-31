@@ -1,0 +1,23 @@
+.cuisine-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+   
+   .cuisine-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+   }
+   
+   
+   
+   .food-img{
+       width: 100px;
+       height: 80px;
+       object-fit: cover;
+       overflow: hidden;
+   }
+   }
+
+  

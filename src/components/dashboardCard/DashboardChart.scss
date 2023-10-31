@@ -1,0 +1,18 @@
+.dashboard_chart {
+  background-color: white;
+  border-radius: 12px;
+  width: 500px;
+  height: 300px;
+  margin: 10px auto;
+
+  -webkit-box-shadow: 3px 2px 15px 1px rgba(168, 163, 168, 0.89);
+  -moz-box-shadow: 3px 2px 15px 1px rgba(168, 163, 168, 0.89);
+  box-shadow: 3px 2px 15px 1px rgba(168, 163, 168, 0.89);
+
+
+
+  @media (max-width:'700px') {
+    width: 90%;
+    height: 230px;
+  }
+}

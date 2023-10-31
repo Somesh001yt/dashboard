@@ -1,0 +1,26 @@
+    .category-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+
+   .category-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+   }
+
+
+    .food-img{
+        width: 100px;
+        height: 80px;
+        object-fit: cover;
+        overflow: hidden;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    }
+
+    .ant-switch-checked{
+        background-color: #628C2A  !important;
+       }

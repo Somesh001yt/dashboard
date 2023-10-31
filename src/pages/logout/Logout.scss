@@ -1,0 +1,81 @@
+.logout-container {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  .modal {
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: white;
+    width: 27rem;
+
+    h4 {
+      font-size: 32px;
+      text-align: center;
+      font-weight: 700;
+      margin-top: 0rem;
+      color: #628c2a;
+      height: 0px;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 700;
+      margin-top: 0.1rem;
+      margin-bottom: 2rem;
+      color: #628c2a;
+    }
+
+    .confirm-btn {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+
+      .cancel-btn {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 8px;
+        border: 2px solid #628c2a;
+        color: #628c2a;
+        font-weight: 600;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .confirm-btn {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 8px;
+        background-color: #628c2a;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .logout-container {
+    z-index: 1;
+
+    .modal {
+      width: 80%;
+    }
+  }
+}

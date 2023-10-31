@@ -1,0 +1,149 @@
+.categoryForm-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .category_heading{
+    display: flex;
+    align-items: center;
+
+    h4 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 3rem;
+      color: #628c2a;
+    }
+
+  }
+  .category-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+
+    .status {
+      display: flex;
+      gap: 3rem;
+      justify-content: flex-start;
+      width: 100%;
+      margin-top: 1rem;
+
+      p {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+        text-transform: capitalize;
+        margin-bottom: 0.75rem;
+        margin-left: 0.1rem;
+        margin-top: 1px;
+      }
+    }
+
+    .categoryForm-btn {
+      width: 8rem;
+      height: 3rem;
+      border-radius: 8px;
+      background-color: #628c2a;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      margin-top: 2rem;
+    }
+
+    .category-input {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      width: 500px;
+
+      label {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+        text-transform: capitalize;
+        margin-bottom: 0.75rem;
+      }
+
+      input {
+        height: 62px;
+        border-radius: 8px;
+        box-shadow: 2px 3px 5px #ccc;
+        // border-bottom:1px solid ;   // border-bottom:1px solid ;
+        background-color: #f8f8f8;
+        padding: 1rem;
+
+        font-size: 16px;
+      }
+
+      input[type="file"] {
+        font-size: 0;
+      }
+      ::file-selector-button {
+        font-size: initial;
+      }
+
+      .errorsImages{
+        color: red;
+        margin-top: 1rem;
+        font-weight: 500;
+      }
+
+      .categoryimgcontainer {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+        align-items: center;
+        margin-top: 1rem;
+        
+        .preview-category-img {
+          display: flex;
+          height: 100px;
+          overflow: hidden;
+          object-fit: cover;
+          margin-bottom: 1rem;
+     
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 700px) {
+  .categoryForm-container {
+    justify-content: center;
+    .category-form {
+      margin: 0;
+
+      h4 {
+        margin: 30px auto;
+      }
+
+      .btn-container {
+        margin: 0 auto;
+      }
+
+      .category-input {
+        label { 
+          margin-left: 1.3rem;
+        }
+
+        input {
+          width: 90%;
+          margin: 0 auto;
+        }
+      }
+
+      .status p {
+        margin-left: 1.5rem;
+      }
+
+      .categoryimgcontainer{
+        margin-top: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.btn{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 3px solid #628C2A;
+    color: #628C2A;
+    background-color:#fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #ccc;  
+
+@media (max-width:'700px') {
+    margin: 10px auto;
+}
+    
+}
+.btn:hover{
+    background-color:  #628C2A;
+    color: white;
+}
